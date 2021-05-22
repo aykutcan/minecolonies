@@ -65,6 +65,7 @@ public final class ModItemsInitializer
         ModItems.chiefSword = new ItemChiefSword(new Item.Properties());
         ModItems.scimitar = new ItemIronScimitar(new Item.Properties());
         ModItems.clipboard = new ItemClipboard(new Item.Properties());
+        ModItems.inventoryBoard = new ItemInventoryBoard(new Item.Properties());
         ModItems.compost = new ItemCompost(new Item.Properties());
         ModItems.resourceScroll = new ItemResourceScroll(new Item.Properties());
         ModItems.pharaoscepter = new ItemPharaoScepter(new Item.Properties());
@@ -130,6 +131,7 @@ public final class ModItemsInitializer
         registry.register(ModItems.ancientTome);
         registry.register(ModItems.chiefSword);
         registry.register(ModItems.clipboard);
+        registry.register(ModItems.inventoryBoard);
         registry.register(ModItems.compost);
         registry.register(ModItems.resourceScroll);
         registry.register(ModItems.scimitar);

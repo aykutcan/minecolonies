@@ -17,6 +17,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.RecipeBook;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.IWorld;
 import net.minecraft.world.World;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.fml.common.Mod;
@@ -109,6 +110,14 @@ public class ClientProxy extends CommonProxy
     public void openClipboardWindow(final IColonyView colonyView)
     {
         @Nullable final WindowClipBoard window = new WindowClipBoard(colonyView);
+        window.open();
+    }
+
+    @Override
+    public void openInventoryBoardWindow(final IColonyView colony, IWorld world)
+    {
+        Log.getLogger().debug("AAAAA");
+        @Nullable final WindowInventoryBoard window = new WindowInventoryBoard(colony,world);
         window.open();
     }
 

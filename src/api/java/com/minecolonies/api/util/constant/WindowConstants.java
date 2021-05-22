@@ -875,6 +875,27 @@ public final class WindowConstants
     public static final String DELIVERY_IMAGE = "deliveryImage";
 
     /**
+     * InventoryBoard Window list id.
+     */
+    private static final String WINDOW_ID_LIST_INVENTORY = "inventoryList";
+
+    /**
+     * InventoryBoard Window item icon id.
+     */
+    private static final String WINDOW_ID_ITEM_ICON = "itemIcon";
+    /**
+     * InventoryBoard Window item name id.
+     */
+
+    private static final String WINDOW_ID_ITEM_NAME = "itemName";
+
+    /**
+     * InventoryBoard Window item count id.
+     */
+    private static final String WINDOW_ID_ITEM_COUNT = "itemCount";
+
+
+    /**
      * Switch id of the head switch in citizen gui.
      */
     public static final String VIEW_HEAD = "head";

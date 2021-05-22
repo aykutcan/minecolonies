@@ -132,6 +132,10 @@ public final class TranslationConstants
     @NonNls
     public static final String COM_MINECOLONIES_CLIPBOARD_COLONY_SET                                = "com.minecolonies.coremod.item.clipboard.registered";
     @NonNls
+    public static final String COM_MINECOLONIES_INVENTORYBOARD_NEED_COLONY                          = "com.minecolonies.coremod.item.inventoryboard.needcolony";
+    @NonNls
+    public static final String COM_MINECOLONIES_INVENTORYBOARD_COLONY_SET                           = "com.minecolonies.coremod.item.inventoryboard.registered";
+    @NonNls
     public static final String COM_MINECOLONIES_SCROLL_NEED_BUILDER                                 = "com.minecolonies.coremod.item.scroll.needcolony";
     @NonNls
     public static final String COM_MINECOLONIES_SCROLL_BUILDER_SET                                  = "com.minecolonies.coremod.item.scroll.registered";

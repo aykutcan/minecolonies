@@ -9,6 +9,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.RecipeBook;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.IWorld;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -77,6 +78,14 @@ public interface IProxy
      * @param colonyView the colony id.
      */
     void openClipboardWindow(IColonyView colonyView);
+
+    /**
+     * Opens a inventoryBoard window.
+     *
+     * @param colony the colony id.
+     * @param world the world.
+     */
+    void openInventoryBoardWindow(IColonyView colony, IWorld world);
 
     /**
      * Opens the resource scroll window.

@@ -1,0 +1,13 @@
+<window xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" size="250 375" pause="false"
+        lightbox="false"
+        xsi:noNamespaceSchemaLocation="file:../../../../../api/java/com/minecolonies/blockout/blockOut.xsd">
+    <image source="minecolonies:textures/gui/clipboard.png" pos="0 0" size="250 400"/>
+    <label size="200 15" pos="25 25" textalign="MIDDLE" color="black" label="$(com.minecolonies.coremod.gui.citizen.inventorylist)"/>
+    <list id="inventoryList" size="200 300" pos="25 45">
+        <box id="inventoryItem" size="100% 40" linewidth="2">
+            <itemicon id="itemIcon" size="30 30" pos="5 5"/>
+            <label id="itemName" size="130 10" pos="40 5" color="black"/>
+            <label id="itemCount" size="130 10" pos="40 15" color="black"/>
+        </box>
+    </list>
+</window>

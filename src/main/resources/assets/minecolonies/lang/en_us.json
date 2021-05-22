@@ -863,6 +863,8 @@
   "com.minecolonies.coremod.gui.citizen.requestscancel": "Cancel",
   "com.minecolonies.coremod.gui.citizen.requestsfulfill": "Fulfill",
 
+  "com.minecolonies.coremod.gui.citizen.inventorylist": "Inventory List:",
+
   "item.minecolonies.clipboard": "Clipboard",
 
   "com.minecolonies.coremod.item.clipboard.needcolony": "No colony set (sneak + use the clipboard on the Town Hall)",
@@ -872,6 +874,9 @@
   "com.minecolonies.coremod.item.scroll.no_builder": "§oNo Builder",
   "com.minecolonies.coremod.buildings.warehouse": "Warehouse",
   "com.minecolonies.coremod.buildings.warehouse.name": "Warehouse",
+
+  "com.minecolonies.coremod.item.inventoryboard.needcolony": "No colony set (sneak + use the clipboard on the Town Hall)",
+  "com.minecolonies.coremod.item.inventoryboard.registered": "Tracking this colony's items.",
 
   "com.minecolonies.coremod.item.bannerrallyguards.selected": "Added %s at %s to rallying list.",
   "com.minecolonies.coremod.item.bannerrallyguards.deselected": "Removed %s at %s from rallying list.",

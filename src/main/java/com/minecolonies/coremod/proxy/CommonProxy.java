@@ -27,6 +27,7 @@ import net.minecraft.item.crafting.IRecipeSerializer;
 import net.minecraft.item.crafting.RecipeBook;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.IWorld;
 import net.minecraftforge.common.crafting.CraftingHelper;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -214,6 +215,14 @@ public abstract class CommonProxy implements IProxy
 
     @Override
     public void openClipboardWindow(final IColonyView colonyView)
+    {
+        /*
+         * Intentionally left empty.
+         */
+    }
+
+    @Override
+    public void openInventoryBoardWindow(final IColonyView colony, IWorld world)
     {
         /*
          * Intentionally left empty.

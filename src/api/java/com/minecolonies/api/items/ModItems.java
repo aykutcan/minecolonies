@@ -24,6 +24,7 @@ public final class ModItems
     public static Item scepterBeekeeper;
 
     public static Item clipboard;
+    public static Item inventoryBoard;
     public static Item compost;
     public static Item resourceScroll;
 
